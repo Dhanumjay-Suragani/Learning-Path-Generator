@@ -1,0 +1,38 @@
+export const initialFlatsData = [
+  {
+    flatId: 'Flat101',
+    controllerId: 'CTRL-101',
+    users: ['Dad', 'Mom', 'Son'],
+    usage: 120,
+    status: 'Active',
+    isTapOn: true,
+    alerts: ['Continuous flow warning'],
+  },
+  {
+    flatId: 'Flat102',
+    controllerId: 'CTRL-102',
+    users: ['User1', 'User2'],
+    usage: 80,
+    status: 'Leakage Detected',
+    isTapOn: false,
+    alerts: ['Leakage detected'],
+  },
+  {
+    flatId: 'Flat103',
+    controllerId: 'CTRL-103',
+    users: ['Aunt', 'Uncle', 'Kid'],
+    usage: 98,
+    status: 'Active',
+    isTapOn: true,
+    alerts: [],
+  },
+  {
+    flatId: 'Flat104',
+    controllerId: 'CTRL-104',
+    users: ['Owner', 'Guest'],
+    usage: 143,
+    status: 'Leakage Detected',
+    isTapOn: false,
+    alerts: ['Leakage detected', 'Continuous flow warning'],
+  },
+]
