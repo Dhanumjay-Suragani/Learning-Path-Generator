@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom'
-import Card from '../components/Card'
-import UserList from '../components/UserList'
+import Card from '../components/Card.jsx'
+import UserList from '../components/UserList.jsx'
 
 const statusBadgeClass = {
   Active: 'bg-emerald-100 text-emerald-700',

@@ -1,6 +1,6 @@
 import { useMemo } from 'react'
 import { Link, useParams } from 'react-router-dom'
-import Card from '../components/Card'
+import Card from '../components/Card.jsx'
 
 function ControllerPage({ flats, onTapChange }) {
   const { id } = useParams()
@@ -51,7 +51,7 @@ function ControllerPage({ flats, onTapChange }) {
           <p className="text-sm font-semibold uppercase tracking-wide text-slate-500">
             Water Usage
           </p>
-          <p className="mt-2 text-2xl font-bold text-slate-900">💧 {flat.usage}</p>
+          <p className="mt-2 text-2xl font-bold text-slate-900">💧 {flat.usage}L</p>
           <p className="mt-4 text-sm text-slate-600">Tap state: {flat.isTapOn ? 'ON' : 'OFF'}</p>
         </Card>
 
